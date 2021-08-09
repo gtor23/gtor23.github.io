@@ -64,7 +64,16 @@ const Data = () =>{
             github: 'https://github.com/gtor23/Tool_Search_GUI_App',
             description: 'Desktop application for finding tool information in plant facility',
             image: "url(/images/tool_search_gui.png)"
-        }
+        },
+        {
+            id: 8,
+            title: 'Retro Draw',
+            github: 'https://github.com/gtor23/Retro_Draw',
+            url: 'https://compassionate-wright-7d3fd5.netlify.app/',
+            description: 'Pixel-based drawing application',
+            image: "url(/images/retro_draw.png)"
+        },
+
 
     ];
 
