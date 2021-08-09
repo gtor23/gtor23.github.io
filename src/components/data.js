@@ -79,7 +79,7 @@ const Data = () =>{
 
     const [cards, setCards] = useState(data)
 
-    console.log('the cards arr',cards)
+    // console.log('the cards arr',cards)
 
     // const handleClick = () => {
     //     setIsFlipped(!isFlipped);
