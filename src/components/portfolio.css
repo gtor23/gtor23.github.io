@@ -1,0 +1,148 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.titleproj{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    color: #212529;
+    margin-top: 11vh;
+
+}
+
+#title-projects{
+    color: #bd3838;
+}
+
+#projcells{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.theprojects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    justify-items: center;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 15px;
+
+}
+
+.card-front, .card-back{
+
+    
+    width: 30vw;
+    height: 20vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    border: 3px solid black;
+    border-radius: 5px;
+
+
+}
+
+.card-back{
+
+    justify-content: space-between;
+    background-color: #1f68885b;
+
+}
+
+
+.card-front{
+
+    justify-content:flex-end;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+.proj1{
+
+    width: 30vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.title1{
+
+    font-family: 'Electrolize', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #bd3838;
+    margin-top: 25px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 8px;
+
+}
+
+.description{
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+    text-align:left;
+    margin-top: 10px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 125px;
+}
+
+#gitlink{
+    font-size: 80px;
+    color: #212529;
+}
+
+#deploylink{
+    font-size: 30px;
+    margin-left: 20px;
+    color: gold;
+}
+
+
+
+.flipper{
+    margin-bottom: 5px;
+}
+
+#flip-button{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.726);
+    color: #bd3838;
+    font-size: 40px;
+    
+}
+
+#cell6{
+    background-color: #0000005b;
+    background-size: 60% 95%;
+    background-repeat: no-repeat;
+}
+
+#desc1, #desc2, #desc6{
+    margin-left: 30px;
+
+}

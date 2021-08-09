@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+
+    background-image: url('./white_carbonfiber/white_carbonfiber_@2X.png');
+}
+
+
+body{
+   max-width: 100%;
+   overflow-x: hidden;
+   
+
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+header{
+    position: fixed;
+    z-index: 1;
+    background: #1F6988 ;
+    height: 10vh;
+    width: 100%; 
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.name-top{
+
+    margin: 45px 0 0 10px;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 2.3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.icon-links{
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: baseline; */
+    /* align-content: center; */
+    /* margin-top: 45px; */
+    margin-top: 45px;
+    font-size: 40px;
+}
+
+#linked-in{
+    color: black;
+    /* margin-top: 10px; */
+} 
+
+#git-hub{
+    color: white;
+    /* margin-top: 10px; */
+}
+
+#e-mail{
+    color: #bd3838;
+}
+
+nav{
+    display: flex;
+    margin: 50px 5px 0 0;
+    font-weight: bold;
+}
+
+
+nav > a{
+
+    color: white;
+    margin: 0 10px;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+nav>a:hover{
+    text-decoration: underline;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+/* --------------------------------------------- */
+
+/* .map{
+    height: 100%;
+
+} */
+
+.one{
+    height: 100%;
+    /* margin-bottom: 10vh; */
+}
+
+ .cont{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first{
+    margin-top: 12vh;
+    height: 100%;
+    width: 100%;
+}
+
+.myname{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    margin-left: 50px;
+} 
+
+.first{
+    color: #212529;
+}
+
+.last{
+    color: #bd3838;
+}
+
+
+.imgcont{
+
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 100px;
+    
+}
+
+
+#sky{
+    
+
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px #212529;
+    width: 700px;
+
+
+}
+
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+
+    text-align: right;
+    color: #212529;
+
+    margin-right: 40px;
+
+} 
+
+.author{
+    color: #bd3838;
+}
+

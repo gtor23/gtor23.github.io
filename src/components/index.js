@@ -1,0 +1,8 @@
+export {default as Home} from './home'
+export {default as Nav} from './nav'
+export {default as About} from './about'
+export {default as Portfolio} from './portfolio'
+export {default as Footer} from './footer'
+export { default as Data} from './data'
+export {default as CardsList} from './cardslist'
+export { default as Card } from './card'

@@ -1,0 +1,18 @@
+footer{
+    background: #1F6988 ;
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 10vh;
+} 
+
+#end{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.linkedin{
+    display: flex;
+    width: 64px;
+}
