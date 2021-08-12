@@ -9,7 +9,6 @@ const Home =() =>{
 
 
          
-        // <div className="map">
             <main className = 'one'>
                 
                         
@@ -32,7 +31,6 @@ const Home =() =>{
 
   
             
-        // </div> 
 
 
 

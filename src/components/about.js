@@ -41,10 +41,9 @@ const About =() =>{
 
                         </p> 
 
-                        <div className="icons">
-
+                        <div className="icons"> 
+                            {/* Use react icons instead */}
                             <i id ="bball" className="material-icons">sports_basketball</i>
-                            {/* <i id ="skate" className="material-icons">skateboarding</i> */}
                             <i id ="hman" className="material-icons">handyman</i>
                             <i id ="mem" className="material-icons">memory</i>
                             <i id ="calc" className="material-icons">calculate</i>

@@ -1,14 +1,8 @@
 import React from 'react';
 import {FaLinkedin, FaGithub} from 'react-icons/fa'
 import {SiGmail} from 'react-icons/si'
-// import {FiMail} from 'react-icons/fi'
 import { Link} from 'react-scroll'
-// import { Link} from 'react-router-dom'
-
-// import './nav.css';
 import './home.css';
-// import stock from './stock_height_calc.png'
-
 
 
 const Nav =() =>{
@@ -29,14 +23,10 @@ const Nav =() =>{
             </div>
             
             <nav className = 'sticky-nav'>
-                {/* <a href="./index.html">Home</a> */}
                 <Link to='one' smooth = {true} duration = {325} className = 'pointer'> Home </Link>
 
-                {/* <a href="./about.html">About</a> */}
                 <Link to='theabt' smooth = {true} duration = {325} className = 'pointer'> About </Link> 
-                {/* <Link to='/about'> About </Link>  */}
 
-                {/* <a href="./portfolio.html">Portfolio</a> */}
                 <Link to='projects' smooth = {true} duration = {325} className = 'pointer'> Projects </Link>
             </nav>
         </header>

@@ -8,7 +8,6 @@ const Portfolio =() =>{
     
     return (
 
-        // <div id = 'projects-section'>
             <div className = 'projects'>
 
                 <h1 className="titleproj"> MY  <span id = 'title-projects'> PROJECTS </span> </h1>
@@ -19,7 +18,6 @@ const Portfolio =() =>{
                 </div>
 
             </div>
-        //  </div>
     )
 
 }

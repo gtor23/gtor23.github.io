@@ -7,16 +7,10 @@
 
 
 .abt{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: flex-end; */
     font-family: 'Rubik', sans-serif;
     font-size: 3rem;
-    /* text-decoration: underline; */
     color: #212529;
     margin-top: 11vh;
-    /* margin-bottom: 2vh; */
-
 }
 
 
@@ -35,22 +29,22 @@
     width: 70%;
     height: 100%;
     text-align: left;
-    /* margin-bottom: 15px; */
     margin-top: 10px;
 
 } 
 
 #self-image{
-    display:flex;
+    display: flex;
     justify-content: center;
-    margin: 5px 0px 5px 0px;
+    margin: 5px 0px 10px 0px;
 }
 
 #self-image > img{
-    width: 11%;
-    border: 2px solid black;
-    border-radius: 30px;
-    /* border-radius: 50%; */
+
+    width: 12%;
+    border: 3px solid black;
+    box-shadow: 5px 5px 15px #212529;
+    border-radius: 50%;
 }
 
 .icons{

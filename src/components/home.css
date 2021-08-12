@@ -55,21 +55,16 @@ header{
     width: 175px;
     display: flex;
     justify-content: space-between;
-    /* align-items: baseline; */
-    /* align-content: center; */
-    /* margin-top: 45px; */
     margin-top: 45px;
     font-size: 40px;
 }
 
 #linked-in{
     color: black;
-    /* margin-top: 10px; */
 } 
 
 #git-hub{
     color: white;
-    /* margin-top: 10px; */
 }
 
 #e-mail{
@@ -104,14 +99,8 @@ nav>a:hover{
 
 /* --------------------------------------------- */
 
-/* .map{
-    height: 100%;
-
-} */
-
 .one{
     height: 100%;
-    /* margin-bottom: 10vh; */
 }
 
  .cont{

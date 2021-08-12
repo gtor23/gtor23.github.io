@@ -1,26 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-
-import {Link} from 'react-scroll'
-
-// import Home from './components/home'
-// import About from './components/about'
 import {Home, About, Portfolio, Footer, Nav} from './components'
 
-const Main = (props) => {
+const Main = () => {
     return(
         <>
 
 
-        {/* <div> */}
-            <Nav />
-        {/* </div> */}
-
+        <Nav />
         <Home />
-
         <About />
-
         <Portfolio />
         
         {/* <Switch>
@@ -29,9 +19,6 @@ const Main = (props) => {
             <Route path = '/portfolio' component = {Portfolio} />
 
         </Switch> */}
-
-        {/* <Footer /> */}
-
         </>
 
     )

@@ -31,8 +31,7 @@
     align-items: center;
     column-gap: 10px;
     row-gap: 10px;
-    margin-top: 15px;
-
+    margin: 15px 0 10px 0;
 }
 
 .card-front, .card-back{
