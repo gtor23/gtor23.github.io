@@ -19,6 +19,7 @@
 
 }
 
+
 #me{
     color: #bd3838;
 }
@@ -38,6 +39,20 @@
     margin-top: 10px;
 
 } 
+
+#self-image{
+    display:flex;
+    justify-content: center;
+    margin: 5px 0px 5px 0px;
+}
+
+#self-image > img{
+    width: 11%;
+    border: 2px solid black;
+    border-radius: 30px;
+    /* border-radius: 50%; */
+}
+
 .icons{
     display: flex;
     justify-content: center;

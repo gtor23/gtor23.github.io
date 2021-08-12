@@ -3,34 +3,19 @@ import React, { Component } from 'react';
 import './about.css';
 
 
-// const Head =() =>{
-//     <head>
-//         <title>About</title>
-//         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
-//     </head>
-// }
-
-
-
 const About =() =>{
-    
-    // componentDidMount() {
-    //     document.title = 'About'
-    // }
 
     return (
 
-        // <Head />
-
-
-        // <div className = 'theabt'>
                 <main className="myabt" id = 'theabt'>
     
                     <h1 className="abt"> ABOUT <span id = 'me'> ME</span></h1>
             
                     <div className="abtpar"> 
+                        <div id = 'self-image' >
+                            <img src ='/images/jerry_portrait.png'/>
+                        </div>
                         <p>
-                        {/* and applying my engineering and problem solving skills to solve problems */}
                             My name is Gerardo Torres, better known as Jerry, and I am a recent Software Engineering graduate from Fullstack Academy.
                             I graduated from the University of Illinois at Chicago with a Bachelor's of
                             Science in Mechanical Engineering in Spring 2018, and after 2.5 years of working as an engineer in the manufacturing industry,
@@ -73,7 +58,7 @@ const About =() =>{
                     </div>
 
                 </main>
-            // </div>
+
 
 
 

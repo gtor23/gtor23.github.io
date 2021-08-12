@@ -14,7 +14,7 @@ const Card = ({project}) =>{
                 <ReactCardFlip  isFlipped = {isFlipped} flipDirection='horizontal' flipSpeedBackToFront = '0.3'	flipSpeedFrontToBack = '0.3'>
 
                     {/* ----------------------ON FRONT VIEW ----------------------*/}
-                    <div style = {{backgroundImage: `${project.image}`}} className = 'card-front' id = {`cell${project.id}`} >
+                    <div style = {{backgroundImage: `url(${project.image})`}} className = 'card-front' id = {`cell${project.id}`} >
 
                             <div onClick = {() => setIsFlipped(!isFlipped)} className = 'flipper pointer'> <i id ="flip-button" className="material-icons">sync_alt</i> </div>  
 
