@@ -171,3 +171,182 @@ nav>a:hover{
     color: #bd3838;
 }
 
+/* ----------------------------------------- */
+@media screen and (max-width: 900px){
+ 
+    .myname{
+        width: 100%;
+        margin: 0;
+    }
+
+    .first{
+        display: flex;
+        justify-content: center;
+    }
+
+    .last{
+        margin-left: 10px;
+    }
+
+    .quote{
+        font-size: 1.6rem;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        
+    }
+
+    .name-top{
+        font-size: 2.0rem;
+    }
+
+    nav > a {
+        font-size: 1.8rem;
+    }
+
+    .icon-links{
+        width: 150px;
+        margin-top: 50px;
+        font-size: 30px;
+    }
+ 
+}
+
+@media screen and (max-width: 830px){
+
+    .quote{
+        font-size: 1.4rem;
+       
+    }
+
+    .icon-links{
+        width: 120px;
+    }
+ 
+}
+
+@media screen and (max-width: 830px){
+    
+    .name-top{
+        font-size: 1.8rem;
+    }
+    
+    nav > a {
+        font-size: 1.5rem;
+        margin: 0 5px;
+    }
+
+    .quote{
+        font-size: 1.4rem;
+       
+    }
+
+    .icon-links{
+        width: 120px;
+    }
+
+    #sky{
+        width: 600px;
+    }
+ 
+}
+
+@media screen and (max-width: 690px){
+    
+    .name-top{
+        margin-top: 55px;
+        font-size: 1.5rem;
+    }
+    
+    nav{
+        margin-top: 60px;
+    }
+
+    nav > a {
+        font-size: 1.3rem;
+    }
+
+    .quote{
+        font-size: 1.3rem;
+       
+    }
+
+    .icon-links{
+        margin-top: 55px;
+        width: 110px;
+        font-size: 25px;
+    }
+
+    .myname{
+        font-size: 3.2rem;
+    }
+
+    /* #sky{
+        width: 600px;
+    } */
+ 
+}
+
+@media screen and (max-width: 675px){
+    .myname{
+        font-size: 2.8rem;
+    }
+
+    .imgcont{
+
+        margin: 15px 0 50px;
+        
+    }
+
+    #sky{
+        width: 500px;
+    }
+
+    .quote{
+        font-size: 1rem;
+       
+    }
+ 
+}
+
+@media screen and (max-width: 590px){
+     header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 12vh;
+     }
+
+     .name-top{
+         margin: 0;
+     }
+
+    .icon-links{
+        margin: 5px 0;
+        width: 120px;
+        font-size: 25px;
+    }
+
+    nav{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 535px){
+
+    .myname{
+        font-size: 2.3rem;
+    }
+
+    #sky{
+        width: 400px;
+    }
+
+    .quote{
+        margin-left: 40px;
+        text-align: center;
+        width: 400px;
+    }
+}
+
