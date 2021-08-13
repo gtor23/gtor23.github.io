@@ -21,8 +21,7 @@ const Home =() =>{
                     </div>
                     
                         <h2 className="quote">
-                            "Life isn't about finding yourself. Life is about creating yourself."
-                            <br/>
+                            <div id ='quote'>"Life isn't about finding yourself. <span id = 'sentence-2'> Life is about creating yourself." </span> </div>
                             <span className = "author">-George Bernard Shaw</span>
                         </h2> 
                     </div>           

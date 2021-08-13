@@ -26,7 +26,7 @@ const Card = ({project}) =>{
                     <div className = 'card-back' >
 
                             <h1 className="title1">{project.title}</h1>
-                            <h2 className = 'description' id = {`desc${project.id}`}>{project.description}</h2>
+                            <div id = 'description'><h2 className = 'description' id = {`desc${project.id}`}>{project.description}</h2></div>
                             <div className = 'links'>
                                 <a href = {`${project.github}`} target='_blank' rel='noopener noreferrer' title = 'Repo Link'> <DiGithubFull id = 'gitlink' /> </a>
                                 

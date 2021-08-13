@@ -99,6 +99,7 @@
     font-family: 'Rubik', sans-serif;
     text-align:left;
     margin-top: 10px;
+    
 }
 
 .links{
@@ -144,4 +145,142 @@
 #desc1, #desc2, #desc5{
     margin-left: 30px;
 
+}
+
+/* ----------------------------------------------------- */
+
+@media screen and (max-width: 1680px){
+    
+    #desc4, #desc6{
+        width: 420px;
+    }
+
+}
+@media screen and (max-width: 1560px){
+    
+    #desc3, #desc8{
+        width: 380px;
+    }
+
+}
+@media screen and (max-width: 1430px){
+    
+    .title1{
+        margin-top: 20px;
+        font-size: 1.2rem;
+    }
+    .description{
+        font-size: 1rem;
+    }
+    #gitlink{
+        font-size: 70px;
+    }
+
+    #desc4,#desc6, #desc8{
+        margin-left: 40px;
+    }
+    
+    #desc5{
+        margin-left: 20px;
+    }
+    
+    
+    #deploylink{
+        font-size: 25px;
+   }
+
+}
+@media screen and (max-width: 1320px){
+    
+    #desc3{
+        width: 300px;
+    }
+    #desc4{
+        margin-left: 0;
+        width: 330px;
+    }
+    #desc5{
+        width: 350px;
+    }
+    #desc6{
+        width: 360px;
+    }
+}
+@media screen and (max-width: 1250px){
+    
+    .theprojects{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+
+    .card-front, .card-back{
+
+        width: 500px;
+        height: 300px;
+    
+    }
+
+    .title1{
+        font-size: 1.3rem;
+    }
+ 
+    #desc1,#desc2,#desc3,#desc4,
+    #desc5,#desc6,#desc7,#desc8,#desc9{
+        margin: 0;
+        width: auto;
+    }
+
+
+    .description{
+        font-size: 1.1rem;
+        
+    }
+
+   #desc1, #desc2, #desc4, #desc5, #desc6{
+        width: 415px;
+    }
+
+}
+
+@media screen and (max-width: 590px){
+    .titleproj{
+        margin-top: 13vh;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .card-front, .card-back{
+
+        width: 400px;
+        height: 275px;
+    
+    }
+
+    #description{
+        margin-top: 10px;
+    }
+
+    .description{
+        font-size: 0.95rem;
+    }
+
+    #desc1, #desc2, #desc3, #desc4, #desc5, #desc8{
+        width: 340px;
+    }
+
+    #desc6{
+        width: 350px;
+    }
+
+    #flip-button{
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (max-width: 535px){
+    .titleproj{
+        font-size: 2.5rem;
+    }
 }

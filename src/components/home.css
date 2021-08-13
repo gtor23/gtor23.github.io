@@ -212,18 +212,6 @@ nav>a:hover{
  
 }
 
-@media screen and (max-width: 830px){
-
-    .quote{
-        font-size: 1.4rem;
-       
-    }
-
-    .icon-links{
-        width: 120px;
-    }
- 
-}
 
 @media screen and (max-width: 830px){
     
@@ -281,13 +269,11 @@ nav>a:hover{
         font-size: 3.2rem;
     }
 
-    /* #sky{
-        width: 600px;
-    } */
  
 }
 
 @media screen and (max-width: 675px){
+
     .myname{
         font-size: 2.8rem;
     }
@@ -303,7 +289,7 @@ nav>a:hover{
     }
 
     .quote{
-        font-size: 1rem;
+        font-size: 1.2rem;
        
     }
  
@@ -325,7 +311,7 @@ nav>a:hover{
     .icon-links{
         margin: 5px 0;
         width: 120px;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     nav{
@@ -339,14 +325,18 @@ nav>a:hover{
         font-size: 2.3rem;
     }
 
+    .first{
+        margin-top: 18vh;
+    }
+
     #sky{
         width: 400px;
     }
 
-    .quote{
-        margin-left: 40px;
-        text-align: center;
-        width: 400px;
+    #quote{
+        display: flex;
+        flex-direction: column;
     }
+
 }
 

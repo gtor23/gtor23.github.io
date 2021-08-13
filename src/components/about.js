@@ -41,17 +41,17 @@ const About =() =>{
 
                         </p> 
 
-                        <div className="icons"> 
+                        {/* <div className="icons">  */}
                             {/* Use react icons instead */}
-                            <i id ="bball" className="material-icons">sports_basketball</i>
+                            {/* <i id ="bball" className="material-icons">sports_basketball</i>
                             <i id ="hman" className="material-icons">handyman</i>
                             <i id ="mem" className="material-icons">memory</i>
                             <i id ="calc" className="material-icons">calculate</i>
-                            <i id ="func" className="material-icons">functions</i>
+                            <i id ="func" className="material-icons">functions</i> */}
 
 
 
-                        </div>
+                        {/* </div> */}
 
                        <p id = "contact">Contact me at: <a href = 'mailto:gerardo.tor23@gmail.com'>gerardo.tor23@gmail.com</a></p>
                     </div>

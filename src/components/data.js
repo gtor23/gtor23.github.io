@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {CardsList} from './index'
 
 const Data = () =>{    
-    //add technologies key/value pair and render on back of cards. Ex: " technologies: 'React | Express | Postgres' "
+
     const data = [
         {   
             id: 1,
