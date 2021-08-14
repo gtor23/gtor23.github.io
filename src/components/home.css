@@ -295,7 +295,7 @@ nav>a:hover{
  
 }
 
-@media screen and (max-width: 590px){
+@media screen and (max-width: 600px){
      header{
         display: flex;
         flex-direction: column;
@@ -318,6 +318,29 @@ nav>a:hover{
         margin: 0;
     }
 }
+/* @media screen and (max-width: 590px){
+     header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 12vh;
+     }
+
+     .name-top{
+         margin: 0;
+     }
+
+    .icon-links{
+        margin: 5px 0;
+        width: 120px;
+        font-size: 30px;
+    }
+
+    nav{
+        margin: 0;
+    }
+} */
 
 @media screen and (max-width: 535px){
 
