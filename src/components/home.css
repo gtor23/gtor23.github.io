@@ -351,6 +351,15 @@ nav>a:hover{
 @media screen and (max-width: 412px){
     
     
+    .name-top{
+        margin-right: 50px;
+    }
+    .icon-links{
+        margin-right: 50px;
+    }
+    .sticky-nav{
+        margin-right: 30px;
+    }
 
     .cont{
         margin-left: 20px;
