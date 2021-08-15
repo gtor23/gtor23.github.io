@@ -120,6 +120,7 @@ nav>a:hover{
     text-transform: uppercase;
     font-size: 3.5rem;
     margin-left: 50px;
+    width: 100%;
 } 
 
 .first{
@@ -136,6 +137,7 @@ nav>a:hover{
     display: flex;
     justify-content: center;
     margin: 50px 0 100px;
+    /* width: 100%; */
     
 }
 
@@ -295,29 +297,14 @@ nav>a:hover{
  
 }
 
-/* @media screen and (max-width: 600px){
-     header{
+@media screen and (max-width: 625px){
+    #quote{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 12vh;
-     }
-
-     .name-top{
-         margin: 0;
-     }
-
-    .icon-links{
-        margin: 5px 0;
-        width: 120px;
-        font-size: 30px;
     }
+}
 
-    nav{
-        margin: 0;
-    }
-} */
+
 @media screen and (max-width: 590px){
      header{
         display: flex;
@@ -343,6 +330,7 @@ nav>a:hover{
 }
 
 @media screen and (max-width: 535px){
+    
 
     .myname{
         font-size: 2.3rem;
@@ -356,10 +344,26 @@ nav>a:hover{
         width: 400px;
     }
 
-    #quote{
-        display: flex;
-        flex-direction: column;
+    
+
+}
+
+@media screen and (max-width: 412px){
+    
+    
+
+    .cont{
+        margin-left: 20px;
+    }
+    
+    .myname{
+        font-size: 2.1rem;
+        /* margin-left: 5px; */
     }
 
+    #sky{
+        width: 350px;
+        /* margin-left: 18px; */
+    }
 }
 

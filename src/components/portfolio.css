@@ -284,3 +284,54 @@
         font-size: 2.5rem;
     }
 }
+
+@media screen and (max-width: 412px){
+
+    .name-top{
+        margin-right: 50px;
+    }
+    .icon-links{
+        margin-right: 50px;
+    }
+    .sticky-nav{
+        margin-right: 30px;
+    }
+
+    .projects{
+        margin-left: 20px;
+    }
+
+    .card-front, .card-back{
+
+        width: 350px;
+        height: 250px;
+    
+    }
+
+    .title1{
+        margin-top: 8px;
+    }
+
+    #desc1, #desc2, #desc4, #desc5, #desc8{
+        width: 340px;
+        margin-left: 12px;
+    }
+
+    #desc2{
+        margin-left: 20px;
+    }
+
+    #desc3{
+        width: 300px;
+        margin-left: 5px;
+    }
+
+    #desc6{
+        width: 260px;
+    }
+
+    #desc8{
+        margin-left: 30px;
+    }
+
+}

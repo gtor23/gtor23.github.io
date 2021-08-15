@@ -112,14 +112,14 @@
 
 }
 
-@media screen and (max-width: 690px){
+/* @media screen and (max-width: 690px){
 
     .abt{
         margin-top: 12vh;
     }
 
 
-}
+} */
 
 @media screen and (max-width: 675px){
 
@@ -157,3 +157,14 @@
 
 }
 
+@media screen and (max-width: 412px) {
+
+    .myabt{
+        margin-left: 25px;
+    }
+
+    .abtpar{
+        width: 90%;
+    }
+    
+}
